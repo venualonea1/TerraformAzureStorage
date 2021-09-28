@@ -10,3 +10,4 @@ variable "storage" {
     rg_name          = string
   })
 }
+variable "resource_group_name" {}
