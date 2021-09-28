@@ -6,8 +6,7 @@ variable "storage" {
     access_tier      = string
     account_kind     = string
     ip_rules         = list(string)
-    location         = string
-    rg_name          = string
+
   })
 }
 variable "resource_group_name" {}
